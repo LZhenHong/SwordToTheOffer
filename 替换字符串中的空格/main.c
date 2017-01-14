@@ -10,6 +10,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+// 相关题目：两个排序数组 A1 和 A2，内存在 A1 的末尾有不足够多的空间容纳 A2。把 A2 的数字插入 A1 种并且所有数字有序。
+// 解题思路：用三个游标，一个指向 A1 末尾，一个指向 A2 末尾，一个指向 A1 最后一个数组。从后向前遍历数组，判断数字大小插入数字。
+
 char *replaceSpaceInString(char *str) {
     if (!str) { return NULL; }
     
