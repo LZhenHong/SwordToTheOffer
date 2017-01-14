@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>替换字符串中的空格.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>05CA8E9C1E2A07AA006B6152</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05CA8EA71E2A16EE006B6152</key>
 		<dict>
 			<key>primary</key>
 			<true/>
