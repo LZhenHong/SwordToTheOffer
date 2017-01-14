@@ -11,7 +11,7 @@
 
 // 首先选取数组中右上角的数字。如果这个数字等于要查找的数字，查找过程结束；如果该数字大于要查找的数字，剔除这个数字所在的列；如果该数字小于要查找的数字，则剔除这个数字所在的行。
 
-bool findNumber(int (*matrix)[4], int rows, int columns, int target) {
+bool findNumber(int rows, int columns, int matrix[rows][columns], int target) {
     if (matrix == NULL || rows <= 0 || columns <= 0) { return false; }
     
     int r = 0, c = columns - 1;
@@ -39,7 +39,7 @@ int main(int argc, const char * argv[]) {
                        };
     int rows = 4, columns = 4, target = 7;
     
-    printf("%s\n", findNumber(matrix, rows, columns, target) ? "true" : "false");
+    printf("%s\n", findNumber(rows, columns, matrix, target) ? "true" : "false");
     
     return 0;
 }
