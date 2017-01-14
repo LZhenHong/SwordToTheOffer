@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>二维数组的查找.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>单例 Objc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>05CA8E911E29FF27006B6152</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05CA8E9C1E2A07AA006B6152</key>
 		<dict>
 			<key>primary</key>
 			<true/>
