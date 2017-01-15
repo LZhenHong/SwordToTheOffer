@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054E478A1E2B28280041D189 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 054E47891E2B28280041D189 /* main.c */; };
 		05CA8E7F1E29E1B5006B6152 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8E7E1E29E1B5006B6152 /* main.c */; };
 		05CA8E8A1E29FDB9006B6152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8E891E29FDB9006B6152 /* main.m */; };
 		05CA8E951E29FF27006B6152 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8E941E29FF27006B6152 /* main.swift */; };
@@ -15,6 +16,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		054E47851E2B28280041D189 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		05CA8E7A1E29E1B5006B6152 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,6 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		054E47871E2B28280041D189 /* 倒序遍历链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "倒序遍历链表"; sourceTree = BUILT_PRODUCTS_DIR; };
+		054E47891E2B28280041D189 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		05CA8E7C1E29E1B5006B6152 /* 单例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单例"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05CA8E7E1E29E1B5006B6152 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		05CA8E871E29FDB9006B6152 /* 单例 Objc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单例 Objc"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +88,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		054E47841E2B28280041D189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05CA8E791E29E1B5006B6152 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,6 +133,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054E47881E2B28280041D189 /* 倒序遍历链表 */ = {
+			isa = PBXGroup;
+			children = (
+				054E47891E2B28280041D189 /* main.c */,
+			);
+			path = "倒序遍历链表";
+			sourceTree = "<group>";
+		};
 		05CA8E5A1E29E160006B6152 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +149,7 @@
 				05CA8E931E29FF27006B6152 /* 单例 Swift */,
 				05CA8E9E1E2A07AA006B6152 /* 二维数组的查找 */,
 				05CA8EA91E2A16EE006B6152 /* 替换字符串中的空格 */,
+				054E47881E2B28280041D189 /* 倒序遍历链表 */,
 				05CA8E641E29E160006B6152 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +162,7 @@
 				05CA8E921E29FF27006B6152 /* 单例 Swift */,
 				05CA8E9D1E2A07AA006B6152 /* 二维数组的查找 */,
 				05CA8EA81E2A16EE006B6152 /* 替换字符串中的空格 */,
+				054E47871E2B28280041D189 /* 倒序遍历链表 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,6 +210,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		054E47861E2B28280041D189 /* 倒序遍历链表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054E478D1E2B28280041D189 /* Build configuration list for PBXNativeTarget "倒序遍历链表" */;
+			buildPhases = (
+				054E47831E2B28280041D189 /* Sources */,
+				054E47841E2B28280041D189 /* Frameworks */,
+				054E47851E2B28280041D189 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "倒序遍历链表";
+			productName = "倒序遍历链表";
+			productReference = 054E47871E2B28280041D189 /* 倒序遍历链表 */;
+			productType = "com.apple.product-type.tool";
+		};
 		05CA8E7B1E29E1B5006B6152 /* 单例 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05CA8E801E29E1B5006B6152 /* Build configuration list for PBXNativeTarget "单例" */;
@@ -276,6 +322,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = lzh;
 				TargetAttributes = {
+					054E47861E2B28280041D189 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V65YCRQZ2M;
+						ProvisioningStyle = Automatic;
+					};
 					05CA8E7B1E29E1B5006B6152 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V65YCRQZ2M;
@@ -320,11 +371,20 @@
 				05CA8E911E29FF27006B6152 /* 单例 Swift */,
 				05CA8E9C1E2A07AA006B6152 /* 二维数组的查找 */,
 				05CA8EA71E2A16EE006B6152 /* 替换字符串中的空格 */,
+				054E47861E2B28280041D189 /* 倒序遍历链表 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		054E47831E2B28280041D189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054E478A1E2B28280041D189 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05CA8E781E29E1B5006B6152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,6 +428,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		054E478B1E2B28280041D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		054E478C1E2B28280041D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		05CA8E681E29E160006B6152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -541,6 +617,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		054E478D1E2B28280041D189 /* Build configuration list for PBXNativeTarget "倒序遍历链表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054E478B1E2B28280041D189 /* Debug */,
+				054E478C1E2B28280041D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		05CA8E5E1E29E160006B6152 /* Build configuration list for PBXProject "剑指 Offer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -566,6 +650,7 @@
 				05CA8E8C1E29FDB9006B6152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05CA8E961E29FF27006B6152 /* Build configuration list for PBXNativeTarget "单例 Swift" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +659,7 @@
 				05CA8E981E29FF27006B6152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05CA8EA11E2A07AA006B6152 /* Build configuration list for PBXNativeTarget "二维数组的查找" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +668,7 @@
 				05CA8EA31E2A07AA006B6152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05CA8EAC1E2A16EE006B6152 /* Build configuration list for PBXNativeTarget "替换字符串中的空格" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +677,7 @@
 				05CA8EAE1E2A16EE006B6152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

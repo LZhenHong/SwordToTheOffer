@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>倒序遍历链表.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>单例 Objc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -32,6 +37,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>054E47861E2B28280041D189</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>05CA8E621E29E160006B6152</key>
 		<dict>
 			<key>primary</key>

@@ -36,6 +36,7 @@ char *replaceSpaceInString(char *str) {
     char *newString = (char *)malloc(sizeof(char) * (totalLength + 1));
     
     // 用两个指针，一个指向原字符串的尾部，一个指向扩展字符串的尾部
+    // C 语言中的字符串以 `\0` 结尾，这个也要拷贝过去
     char *p1 = str + length;
     char *p2 = newString + totalLength;
     
