@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>快速排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>替换字符串中的空格.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +53,11 @@
 			<true/>
 		</dict>
 		<key>054E47911E2B71120041D189</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>057859A11E2CECAA003D8D33</key>
 		<dict>
 			<key>primary</key>
 			<true/>

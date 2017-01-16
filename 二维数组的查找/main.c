@@ -9,7 +9,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// 首先选取数组中右上角的数字。如果这个数字等于要查找的数字，查找过程结束；如果该数字大于要查找的数字，剔除这个数字所在的列；如果该数字小于要查找的数字，则剔除这个数字所在的行。
+// 首先选取数组中右上角的数字。
+// 如果这个数字等于要查找的数字，查找过程结束；
+// 如果该数字大于要查找的数字，剔除这个数字所在的列；
+// 如果该数字小于要查找的数字，则剔除这个数字所在的行。
 
 bool findNumber(int rows, int columns, int matrix[rows][columns], int target) {
     if (matrix == NULL || rows <= 0 || columns <= 0) { return false; }
