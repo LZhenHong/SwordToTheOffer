@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>斐波那契数列.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>旋转数组中的最小数字.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -68,6 +73,11 @@
 			<true/>
 		</dict>
 		<key>057859AC1E2CFF45003D8D33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>057859B71E2D07D3003D8D33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
