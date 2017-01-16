@@ -10,6 +10,7 @@
 		054E478A1E2B28280041D189 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 054E47891E2B28280041D189 /* main.c */; };
 		054E47951E2B71120041D189 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 054E47941E2B71120041D189 /* main.c */; };
 		057859A51E2CECAA003D8D33 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 057859A41E2CECAA003D8D33 /* main.c */; };
+		057859B01E2CFF45003D8D33 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 057859AF1E2CFF45003D8D33 /* main.c */; };
 		05CA8E7F1E29E1B5006B6152 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8E7E1E29E1B5006B6152 /* main.c */; };
 		05CA8E8A1E29FDB9006B6152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8E891E29FDB9006B6152 /* main.m */; };
 		05CA8E951E29FF27006B6152 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8E941E29FF27006B6152 /* main.swift */; };
@@ -37,6 +38,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		057859A01E2CECAA003D8D33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		057859AB1E2CFF45003D8D33 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -99,6 +109,8 @@
 		054E47941E2B71120041D189 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		057859A21E2CECAA003D8D33 /* 快速排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "快速排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		057859A41E2CECAA003D8D33 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		057859AD1E2CFF45003D8D33 /* 旋转数组中的最小数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "旋转数组中的最小数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057859AF1E2CFF45003D8D33 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		05CA8E7C1E29E1B5006B6152 /* 单例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单例"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05CA8E7E1E29E1B5006B6152 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		05CA8E871E29FDB9006B6152 /* 单例 Objc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单例 Objc"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +139,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0578599F1E2CECAA003D8D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057859AA1E2CFF45003D8D33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,6 +214,14 @@
 			path = "快速排序";
 			sourceTree = "<group>";
 		};
+		057859AE1E2CFF45003D8D33 /* 旋转数组中的最小数字 */ = {
+			isa = PBXGroup;
+			children = (
+				057859AF1E2CFF45003D8D33 /* main.c */,
+			);
+			path = "旋转数组中的最小数字";
+			sourceTree = "<group>";
+		};
 		05CA8E5A1E29E160006B6152 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +233,7 @@
 				054E47881E2B28280041D189 /* 倒序遍历链表 */,
 				054E47931E2B71120041D189 /* 重建二叉树 */,
 				057859A31E2CECAA003D8D33 /* 快速排序 */,
+				057859AE1E2CFF45003D8D33 /* 旋转数组中的最小数字 */,
 				05CA8E641E29E160006B6152 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -221,6 +249,7 @@
 				054E47871E2B28280041D189 /* 倒序遍历链表 */,
 				054E47921E2B71120041D189 /* 重建二叉树 */,
 				057859A21E2CECAA003D8D33 /* 快速排序 */,
+				057859AD1E2CFF45003D8D33 /* 旋转数组中的最小数字 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,6 +346,23 @@
 			name = "快速排序";
 			productName = "快速排序";
 			productReference = 057859A21E2CECAA003D8D33 /* 快速排序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		057859AC1E2CFF45003D8D33 /* 旋转数组中的最小数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057859B11E2CFF45003D8D33 /* Build configuration list for PBXNativeTarget "旋转数组中的最小数字" */;
+			buildPhases = (
+				057859A91E2CFF45003D8D33 /* Sources */,
+				057859AA1E2CFF45003D8D33 /* Frameworks */,
+				057859AB1E2CFF45003D8D33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旋转数组中的最小数字";
+			productName = "旋转数组中的最小数字";
+			productReference = 057859AD1E2CFF45003D8D33 /* 旋转数组中的最小数字 */;
 			productType = "com.apple.product-type.tool";
 		};
 		05CA8E7B1E29E1B5006B6152 /* 单例 */ = {
@@ -429,6 +475,11 @@
 						DevelopmentTeam = V65YCRQZ2M;
 						ProvisioningStyle = Automatic;
 					};
+					057859AC1E2CFF45003D8D33 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V65YCRQZ2M;
+						ProvisioningStyle = Automatic;
+					};
 					05CA8E7B1E29E1B5006B6152 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V65YCRQZ2M;
@@ -476,6 +527,7 @@
 				054E47861E2B28280041D189 /* 倒序遍历链表 */,
 				054E47911E2B71120041D189 /* 重建二叉树 */,
 				057859A11E2CECAA003D8D33 /* 快速排序 */,
+				057859AC1E2CFF45003D8D33 /* 旋转数组中的最小数字 */,
 			);
 		};
 /* End PBXProject section */
@@ -502,6 +554,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				057859A51E2CECAA003D8D33 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057859A91E2CFF45003D8D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057859B01E2CFF45003D8D33 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +649,22 @@
 			name = Debug;
 		};
 		057859A71E2CECAA003D8D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		057859B21E2CFF45003D8D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		057859B31E2CFF45003D8D33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
@@ -792,6 +868,14 @@
 			buildConfigurations = (
 				057859A61E2CECAA003D8D33 /* Debug */,
 				057859A71E2CECAA003D8D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		057859B11E2CFF45003D8D33 /* Build configuration list for PBXNativeTarget "旋转数组中的最小数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057859B21E2CFF45003D8D33 /* Debug */,
+				057859B31E2CFF45003D8D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
