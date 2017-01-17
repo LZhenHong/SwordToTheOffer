@@ -12,7 +12,7 @@
 		<key>二进制中 1 的个数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>倒序遍历链表.xcscheme</key>
 		<dict>
@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>归并排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>快速排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -42,12 +47,12 @@
 		<key>斐波那契数列.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>旋转数组中的最小数字.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>9</integer>
 		</dict>
 		<key>替换字符串中的空格.xcscheme</key>
 		<dict>
@@ -73,6 +78,11 @@
 			<true/>
 		</dict>
 		<key>0569ABEA1E2DC63900940A37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0569ABF51E2E672D00940A37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
