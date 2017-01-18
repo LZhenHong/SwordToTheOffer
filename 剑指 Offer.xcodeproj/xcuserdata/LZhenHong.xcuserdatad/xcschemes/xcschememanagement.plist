@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>数值的整数次方.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>斐波那契数列.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -133,6 +138,11 @@
 			<true/>
 		</dict>
 		<key>05CA8EA71E2A16EE006B6152</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05FF8AE81E2FAFD40099A2B0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
