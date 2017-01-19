@@ -18,6 +18,10 @@
 
 问题9：[归并排序][9]
 
+问题10：[在 O(1) 时间删除链表节点][10]
+
+问题11：[调整数组顺序使奇数位于偶数前面][11]
+
 [1]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/单例/main.c
 [2]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二维数组的查找/main.c
 [3]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/替换字符串中的空格/main.c
@@ -27,5 +31,7 @@
 [7]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/旋转数组中的最小数字/main.c
 [8]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二进制中%201%20的个数/main.c
 [9]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/归并排序/main.c
+[10]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/在%20O(1)%20时间删除链表节点/main.c
+[11]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/调整数组顺序使奇数位于偶数前面/main.c
 
 
