@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>在 O(1) 时间删除链表节点.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>归并排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -138,6 +143,11 @@
 			<true/>
 		</dict>
 		<key>05CA8EA71E2A16EE006B6152</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F1B6F11E307160005232CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
