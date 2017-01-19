@@ -69,6 +69,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>调整数组顺序使奇数位于偶数前面.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>重建二叉树.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -148,6 +153,11 @@
 			<true/>
 		</dict>
 		<key>05F1B6F11E307160005232CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F1B7071E30EEDC005232CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
