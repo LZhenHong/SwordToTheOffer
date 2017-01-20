@@ -8,6 +8,8 @@
 
 #include <stdio.h>
 
+// 这里为了保证扩展性，可以将两个判断条件变成函数参数
+
 void sortArrayOddBeforeEven(int *data, int count) {
     if (!data || count < 2) { return; }
     

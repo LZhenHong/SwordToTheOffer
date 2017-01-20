@@ -72,12 +72,17 @@
 		<key>调整数组顺序使奇数位于偶数前面.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>14</integer>
 		</dict>
 		<key>重建二叉树.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>链表倒数第 K 个节点.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -158,6 +163,11 @@
 			<true/>
 		</dict>
 		<key>05F1B7071E30EEDC005232CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F1B7121E323A6B005232CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
