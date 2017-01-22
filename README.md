@@ -26,6 +26,8 @@
 
 问题 13：[反转链表][13]
 
+问题 14：[合并两个排序的链表][14]
+
 [1]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/单例/main.c
 [2]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二维数组的查找/main.c
 [3]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/替换字符串中的空格/main.c
@@ -39,5 +41,6 @@
 [11]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/调整数组顺序使奇数位于偶数前面/main.c
 [12]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/链表倒数第%20K%20个节点/main.c
 [13]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/反转链表/main.c
+[14]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/合并两个排序的链表/main.c
 
 
