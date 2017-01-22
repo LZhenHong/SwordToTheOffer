@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>合并两个排序的链表.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>在 O(1) 时间删除链表节点.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -178,6 +183,11 @@
 			<true/>
 		</dict>
 		<key>05F1B71D1E338507005232CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F1B7281E34DDFE005232CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
