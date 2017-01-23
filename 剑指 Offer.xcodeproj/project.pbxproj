@@ -25,6 +25,7 @@
 		05F1B7211E338507005232CB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F1B7201E338507005232CB /* main.c */; };
 		05F1B72C1E34DDFE005232CB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F1B72B1E34DDFE005232CB /* main.c */; };
 		05F1B7371E35D0F1005232CB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F1B7361E35D0F1005232CB /* main.c */; };
+		05F1B7421E363624005232CB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F1B7411E363624005232CB /* main.c */; };
 		05FF8AEC1E2FAFD40099A2B0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05FF8AEB1E2FAFD40099A2B0 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -191,6 +192,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		05F1B73D1E363624005232CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		05FF8AE71E2FAFD40099A2B0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +249,8 @@
 		05F1B72B1E34DDFE005232CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		05F1B7341E35D0F1005232CB /* 树的子结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "树的子结构"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F1B7361E35D0F1005232CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		05F1B73F1E363624005232CB /* 二叉树的镜像 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "二叉树的镜像"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F1B7411E363624005232CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		05FF8AE91E2FAFD40099A2B0 /* 数值的整数次方 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数值的整数次方"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FF8AEB1E2FAFD40099A2B0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -370,6 +382,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05F1B73C1E363624005232CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05FF8AE61E2FAFD40099A2B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -458,6 +477,7 @@
 				05F1B71F1E338507005232CB /* 反转链表 */,
 				05F1B72A1E34DDFE005232CB /* 合并两个排序的链表 */,
 				05F1B7351E35D0F1005232CB /* 树的子结构 */,
+				05F1B7401E363624005232CB /* 二叉树的镜像 */,
 				05CA8E641E29E160006B6152 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -484,6 +504,7 @@
 				05F1B71E1E338507005232CB /* 反转链表 */,
 				05F1B7291E34DDFE005232CB /* 合并两个排序的链表 */,
 				05F1B7341E35D0F1005232CB /* 树的子结构 */,
+				05F1B73F1E363624005232CB /* 二叉树的镜像 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -574,6 +595,14 @@
 				05F1B7361E35D0F1005232CB /* main.c */,
 			);
 			path = "树的子结构";
+			sourceTree = "<group>";
+		};
+		05F1B7401E363624005232CB /* 二叉树的镜像 */ = {
+			isa = PBXGroup;
+			children = (
+				05F1B7411E363624005232CB /* main.c */,
+			);
+			path = "二叉树的镜像";
 			sourceTree = "<group>";
 		};
 		05FF8AEA1E2FAFD40099A2B0 /* 数值的整数次方 */ = {
@@ -893,6 +922,23 @@
 			productReference = 05F1B7341E35D0F1005232CB /* 树的子结构 */;
 			productType = "com.apple.product-type.tool";
 		};
+		05F1B73E1E363624005232CB /* 二叉树的镜像 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F1B7431E363624005232CB /* Build configuration list for PBXNativeTarget "二叉树的镜像" */;
+			buildPhases = (
+				05F1B73B1E363624005232CB /* Sources */,
+				05F1B73C1E363624005232CB /* Frameworks */,
+				05F1B73D1E363624005232CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二叉树的镜像";
+			productName = "二叉树的镜像";
+			productReference = 05F1B73F1E363624005232CB /* 二叉树的镜像 */;
+			productType = "com.apple.product-type.tool";
+		};
 		05FF8AE81E2FAFD40099A2B0 /* 数值的整数次方 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05FF8AEF1E2FAFD40099A2B0 /* Build configuration list for PBXNativeTarget "数值的整数次方" */;
@@ -1010,6 +1056,11 @@
 						DevelopmentTeam = V65YCRQZ2M;
 						ProvisioningStyle = Automatic;
 					};
+					05F1B73E1E363624005232CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V65YCRQZ2M;
+						ProvisioningStyle = Automatic;
+					};
 					05FF8AE81E2FAFD40099A2B0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V65YCRQZ2M;
@@ -1048,6 +1099,7 @@
 				05F1B71D1E338507005232CB /* 反转链表 */,
 				05F1B7281E34DDFE005232CB /* 合并两个排序的链表 */,
 				05F1B7331E35D0F1005232CB /* 树的子结构 */,
+				05F1B73E1E363624005232CB /* 二叉树的镜像 */,
 			);
 		};
 /* End PBXProject section */
@@ -1194,6 +1246,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				05F1B7371E35D0F1005232CB /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F1B73B1E363624005232CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F1B7421E363624005232CB /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1586,6 +1646,22 @@
 			};
 			name = Release;
 		};
+		05F1B7441E363624005232CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F1B7451E363624005232CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		05FF8AED1E2FAFD40099A2B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1769,6 +1845,14 @@
 			buildConfigurations = (
 				05F1B7391E35D0F1005232CB /* Debug */,
 				05F1B73A1E35D0F1005232CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05F1B7431E363624005232CB /* Build configuration list for PBXNativeTarget "二叉树的镜像" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F1B7441E363624005232CB /* Debug */,
+				05F1B7451E363624005232CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
