@@ -32,6 +32,8 @@
 
 问题 16：[二叉树的镜像][16]
 
+问题 17：[包含 min 函数的栈][17]
+
 [1]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/单例/main.c
 [2]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二维数组的查找/main.c
 [3]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/替换字符串中的空格/main.c
@@ -48,5 +50,5 @@
 [14]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/合并两个排序的链表/main.c
 [15]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/树的子结构/main.c
 [16]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二叉树的镜像/main.c
-
+[17]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/包含%20min%20函数的栈/main.c
 
