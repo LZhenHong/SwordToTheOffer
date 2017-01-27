@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>从上至下遍历二叉树.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>倒序遍历链表.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -143,6 +148,11 @@
 			<true/>
 		</dict>
 		<key>057859B71E2D07D3003D8D33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>058B14C91E3B947F00A28568</key>
 		<dict>
 			<key>primary</key>
 			<true/>
