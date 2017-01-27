@@ -111,8 +111,10 @@ void literalBinaryTreeFromTop(BinaryTreeNode *tree) {
     while (!isQueueEmpty(queue)) {
         node = outQueue(queue);
         printf("%d ", node->data);
-        if (node->leftChild) { enQueue(queue, node->leftChild); }
-        if (node->rightChild) { enQueue(queue, node->rightChild); }
+//        if (node->leftChild) { enQueue(queue, node->leftChild); }
+//        if (node->rightChild) { enQueue(queue, node->rightChild); }
+        !node->leftChild ? : enQueue(queue, node->leftChild);
+        !node->rightChild ? : enQueue(queue, node->rightChild);
     }
     printf("\n");
     
