@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>二叉搜索树的后序遍历.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>二叉树的镜像.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -123,6 +128,11 @@
 			<true/>
 		</dict>
 		<key>054E47911E2B71120041D189</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>054F1CDA1E3CBB1E000F2062</key>
 		<dict>
 			<key>primary</key>
 			<true/>
