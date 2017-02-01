@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>二叉树中和为某一值的路径.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>二叉树的镜像.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -133,6 +138,11 @@
 			<true/>
 		</dict>
 		<key>054F1CDA1E3CBB1E000F2062</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>054F1CE51E421345000F2062</key>
 		<dict>
 			<key>primary</key>
 			<true/>
