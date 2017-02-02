@@ -38,6 +38,10 @@
 
 问题 19：[二叉搜索树的后序遍历][19]
 
+问题 20：[二叉树中和为某一值的路径][20]
+
+问题 21：[复杂链表的复制][21]
+
 [1]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/单例/main.c
 [2]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二维数组的查找/main.c
 [3]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/替换字符串中的空格/main.c
@@ -57,4 +61,6 @@
 [17]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/包含%20min%20函数的栈/main.c
 [18]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/从上至下遍历二叉树/main.c
 [19]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二叉搜索树的后序遍历/main.c
+[20]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二叉树中和为某一值的路径/main.c
+[21]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/复杂链表的复制/main.c
 
