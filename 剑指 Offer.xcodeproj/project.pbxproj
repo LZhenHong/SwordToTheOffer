@@ -11,6 +11,7 @@
 		054E47951E2B71120041D189 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 054E47941E2B71120041D189 /* main.c */; };
 		054F1CDE1E3CBB1E000F2062 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 054F1CDD1E3CBB1E000F2062 /* main.c */; };
 		054F1CE91E421345000F2062 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 054F1CE81E421345000F2062 /* main.c */; };
+		054F1CF41E42D709000F2062 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 054F1CF31E42D709000F2062 /* main.c */; };
 		0569ABEE1E2DC63900940A37 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0569ABED1E2DC63900940A37 /* main.c */; };
 		0569ABF91E2E672D00940A37 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0569ABF81E2E672D00940A37 /* main.c */; };
 		057859A51E2CECAA003D8D33 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 057859A41E2CECAA003D8D33 /* main.c */; };
@@ -62,6 +63,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		054F1CE41E421345000F2062 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		054F1CEF1E42D709000F2062 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -261,6 +271,8 @@
 		054F1CDD1E3CBB1E000F2062 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		054F1CE61E421345000F2062 /* 二叉树中和为某一值的路径 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "二叉树中和为某一值的路径"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054F1CE81E421345000F2062 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		054F1CF11E42D709000F2062 /* 复杂链表的复制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "复杂链表的复制"; sourceTree = BUILT_PRODUCTS_DIR; };
+		054F1CF31E42D709000F2062 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0569ABEB1E2DC63900940A37 /* 二进制中 1 的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "二进制中 1 的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0569ABED1E2DC63900940A37 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0569ABF61E2E672D00940A37 /* 归并排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "归并排序"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -326,6 +338,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		054F1CE31E421345000F2062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054F1CEE1E42D709000F2062 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,6 +526,14 @@
 			path = "二叉树中和为某一值的路径";
 			sourceTree = "<group>";
 		};
+		054F1CF21E42D709000F2062 /* 复杂链表的复制 */ = {
+			isa = PBXGroup;
+			children = (
+				054F1CF31E42D709000F2062 /* main.c */,
+			);
+			path = "复杂链表的复制";
+			sourceTree = "<group>";
+		};
 		0569ABEC1E2DC63900940A37 /* 二进制中 1 的个数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -582,6 +609,7 @@
 				058B14CB1E3B947F00A28568 /* 从上至下遍历二叉树 */,
 				054F1CDC1E3CBB1E000F2062 /* 二叉搜索树的后序遍历 */,
 				054F1CE71E421345000F2062 /* 二叉树中和为某一值的路径 */,
+				054F1CF21E42D709000F2062 /* 复杂链表的复制 */,
 				05CA8E641E29E160006B6152 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -613,6 +641,7 @@
 				058B14CA1E3B947F00A28568 /* 从上至下遍历二叉树 */,
 				054F1CDB1E3CBB1E000F2062 /* 二叉搜索树的后序遍历 */,
 				054F1CE61E421345000F2062 /* 二叉树中和为某一值的路径 */,
+				054F1CF11E42D709000F2062 /* 复杂链表的复制 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -798,6 +827,23 @@
 			name = "二叉树中和为某一值的路径";
 			productName = "二叉树中和为某一值的路径";
 			productReference = 054F1CE61E421345000F2062 /* 二叉树中和为某一值的路径 */;
+			productType = "com.apple.product-type.tool";
+		};
+		054F1CF01E42D709000F2062 /* 复杂链表的复制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054F1CF51E42D709000F2062 /* Build configuration list for PBXNativeTarget "复杂链表的复制" */;
+			buildPhases = (
+				054F1CED1E42D709000F2062 /* Sources */,
+				054F1CEE1E42D709000F2062 /* Frameworks */,
+				054F1CEF1E42D709000F2062 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "复杂链表的复制";
+			productName = "复杂链表的复制";
+			productReference = 054F1CF11E42D709000F2062 /* 复杂链表的复制 */;
 			productType = "com.apple.product-type.tool";
 		};
 		0569ABEA1E2DC63900940A37 /* 二进制中 1 的个数 */ = {
@@ -1170,6 +1216,11 @@
 						DevelopmentTeam = V65YCRQZ2M;
 						ProvisioningStyle = Automatic;
 					};
+					054F1CF01E42D709000F2062 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V65YCRQZ2M;
+						ProvisioningStyle = Automatic;
+					};
 					0569ABEA1E2DC63900940A37 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V65YCRQZ2M;
@@ -1308,6 +1359,7 @@
 				058B14C91E3B947F00A28568 /* 从上至下遍历二叉树 */,
 				054F1CDA1E3CBB1E000F2062 /* 二叉搜索树的后序遍历 */,
 				054F1CE51E421345000F2062 /* 二叉树中和为某一值的路径 */,
+				054F1CF01E42D709000F2062 /* 复杂链表的复制 */,
 			);
 		};
 /* End PBXProject section */
@@ -1342,6 +1394,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				054F1CE91E421345000F2062 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054F1CED1E42D709000F2062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054F1CF41E42D709000F2062 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1565,6 +1625,22 @@
 			name = Debug;
 		};
 		054F1CEB1E421345000F2062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		054F1CF61E42D709000F2062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		054F1CF71E42D709000F2062 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
@@ -2017,6 +2093,14 @@
 			buildConfigurations = (
 				054F1CEA1E421345000F2062 /* Debug */,
 				054F1CEB1E421345000F2062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		054F1CF51E42D709000F2062 /* Build configuration list for PBXNativeTarget "复杂链表的复制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054F1CF61E42D709000F2062 /* Debug */,
+				054F1CF71E42D709000F2062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

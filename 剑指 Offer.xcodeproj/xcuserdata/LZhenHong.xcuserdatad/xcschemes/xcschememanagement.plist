@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>复杂链表的复制.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>归并排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -143,6 +148,11 @@
 			<true/>
 		</dict>
 		<key>054F1CE51E421345000F2062</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>054F1CF01E42D709000F2062</key>
 		<dict>
 			<key>primary</key>
 			<true/>
