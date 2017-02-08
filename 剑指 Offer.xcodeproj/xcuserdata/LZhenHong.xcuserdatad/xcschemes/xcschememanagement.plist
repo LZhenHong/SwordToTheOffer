@@ -89,6 +89,11 @@
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
+		<key>字符串的排列2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>归并排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -278,6 +283,11 @@
 			<true/>
 		</dict>
 		<key>05F1B7541E374927005232CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F39B531E4AC2C90080FCD1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
