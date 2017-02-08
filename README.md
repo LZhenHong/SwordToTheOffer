@@ -44,6 +44,10 @@
 
 问题 22：[二叉搜索树与双向链表][22]
 
+问题 23：[字符串的排列][23]
+
+问题 24：[字符串的排列 2][24]
+
 [1]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/单例/main.c
 [2]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二维数组的查找/main.c
 [3]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/替换字符串中的空格/main.c
@@ -66,5 +70,7 @@
 [20]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二叉树中和为某一值的路径/main.c
 [21]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/复杂链表的复制/main.c
 [22]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/二叉搜索树与双向链表/main.c
+[23]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/字符串的排列/main.c
+[24]: https://github.com/LZhenHong/SwordToTheOffer/blob/master/字符串的排列2/main.c
 
 
