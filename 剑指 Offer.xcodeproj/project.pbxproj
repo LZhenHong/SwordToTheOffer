@@ -34,6 +34,7 @@
 		05F1B7421E363624005232CB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F1B7411E363624005232CB /* main.c */; };
 		05F1B7581E374927005232CB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F1B7571E374927005232CB /* main.c */; };
 		05F39B571E4AC2C90080FCD1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F39B561E4AC2C90080FCD1 /* main.c */; };
+		05F39B801E5157D60080FCD1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05F39B7F1E5157D60080FCD1 /* main.c */; };
 		05FF8AEC1E2FAFD40099A2B0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05FF8AEB1E2FAFD40099A2B0 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -281,6 +282,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		05F39B7B1E5157D60080FCD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		05FF8AE71E2FAFD40099A2B0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +357,8 @@
 		05F1B7571E374927005232CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		05F39B541E4AC2C90080FCD1 /* 字符串的排列2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "字符串的排列2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F39B561E4AC2C90080FCD1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		05F39B7D1E5157D60080FCD1 /* 数组中出现次数超过一半的数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数组中出现次数超过一半的数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F39B7F1E5157D60080FCD1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		05FF8AE91E2FAFD40099A2B0 /* 数值的整数次方 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数值的整数次方"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FF8AEB1E2FAFD40099A2B0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -541,6 +553,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05F39B7A1E5157D60080FCD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05FF8AE61E2FAFD40099A2B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -686,6 +705,7 @@
 				054F1CFD1E42EE8A000F2062 /* 二叉搜索树与双向链表 */,
 				054F1D081E443918000F2062 /* 字符串的排列 */,
 				05F39B551E4AC2C90080FCD1 /* 字符串的排列2 */,
+				05F39B7E1E5157D60080FCD1 /* 数组中出现次数超过一半的数字 */,
 				05CA8E641E29E160006B6152 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -721,6 +741,7 @@
 				054F1CFC1E42EE8A000F2062 /* 二叉搜索树与双向链表 */,
 				054F1D071E443918000F2062 /* 字符串的排列 */,
 				05F39B541E4AC2C90080FCD1 /* 字符串的排列2 */,
+				05F39B7D1E5157D60080FCD1 /* 数组中出现次数超过一半的数字 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -835,6 +856,14 @@
 				05F39B561E4AC2C90080FCD1 /* main.c */,
 			);
 			path = "字符串的排列2";
+			sourceTree = "<group>";
+		};
+		05F39B7E1E5157D60080FCD1 /* 数组中出现次数超过一半的数字 */ = {
+			isa = PBXGroup;
+			children = (
+				05F39B7F1E5157D60080FCD1 /* main.c */,
+			);
+			path = "数组中出现次数超过一半的数字";
 			sourceTree = "<group>";
 		};
 		05FF8AEA1E2FAFD40099A2B0 /* 数值的整数次方 */ = {
@@ -1307,6 +1336,23 @@
 			productReference = 05F39B541E4AC2C90080FCD1 /* 字符串的排列2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		05F39B7C1E5157D60080FCD1 /* 数组中出现次数超过一半的数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F39B831E5157D60080FCD1 /* Build configuration list for PBXNativeTarget "数组中出现次数超过一半的数字" */;
+			buildPhases = (
+				05F39B791E5157D60080FCD1 /* Sources */,
+				05F39B7A1E5157D60080FCD1 /* Frameworks */,
+				05F39B7B1E5157D60080FCD1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数组中出现次数超过一半的数字";
+			productName = "数组中出现次数超过一半的数字";
+			productReference = 05F39B7D1E5157D60080FCD1 /* 数组中出现次数超过一半的数字 */;
+			productType = "com.apple.product-type.tool";
+		};
 		05FF8AE81E2FAFD40099A2B0 /* 数值的整数次方 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05FF8AEF1E2FAFD40099A2B0 /* Build configuration list for PBXNativeTarget "数值的整数次方" */;
@@ -1469,6 +1515,11 @@
 						DevelopmentTeam = V65YCRQZ2M;
 						ProvisioningStyle = Automatic;
 					};
+					05F39B7C1E5157D60080FCD1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V65YCRQZ2M;
+						ProvisioningStyle = Automatic;
+					};
 					05FF8AE81E2FAFD40099A2B0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V65YCRQZ2M;
@@ -1516,6 +1567,7 @@
 				054F1CFB1E42EE8A000F2062 /* 二叉搜索树与双向链表 */,
 				054F1D061E443918000F2062 /* 字符串的排列 */,
 				05F39B531E4AC2C90080FCD1 /* 字符串的排列2 */,
+				05F39B7C1E5157D60080FCD1 /* 数组中出现次数超过一半的数字 */,
 			);
 		};
 /* End PBXProject section */
@@ -1734,6 +1786,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				05F39B571E4AC2C90080FCD1 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F39B791E5157D60080FCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F39B801E5157D60080FCD1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2270,6 +2330,22 @@
 			};
 			name = Release;
 		};
+		05F39B811E5157D60080FCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F39B821E5157D60080FCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		05FF8AED1E2FAFD40099A2B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2537,6 +2613,15 @@
 			buildConfigurations = (
 				05F39B581E4AC2C90080FCD1 /* Debug */,
 				05F39B591E4AC2C90080FCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F39B831E5157D60080FCD1 /* Build configuration list for PBXNativeTarget "数组中出现次数超过一半的数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F39B811E5157D60080FCD1 /* Debug */,
+				05F39B821E5157D60080FCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

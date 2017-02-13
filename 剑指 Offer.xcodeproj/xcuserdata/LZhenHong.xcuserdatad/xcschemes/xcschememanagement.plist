@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>数组中出现次数超过一半的数字.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
 		<key>斐波那契数列.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -288,6 +293,11 @@
 			<true/>
 		</dict>
 		<key>05F39B531E4AC2C90080FCD1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F39B7C1E5157D60080FCD1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
