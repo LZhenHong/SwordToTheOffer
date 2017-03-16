@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>转换字符串.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
 		<key>重建二叉树.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -152,6 +157,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0518944E1E7A21300003D641</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>054E47861E2B28280041D189</key>
 		<dict>
 			<key>primary</key>
