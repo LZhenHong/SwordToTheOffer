@@ -100,13 +100,15 @@ int main(int argc, const char * argv[]) {
     
     reverseString(str, strlen(str));
     int index = 0;
-    for (int j = 0; j < strlen(str); ++j) {
+    int j = 0;
+    for (; j < strlen(str); ++j) {
         if (str[j] == '.') {
             str[j] = '/';
             reverseString(str + index, j - index);
             index = j + 1;
         }
     }
+    reverseString(str + index, j - index);
     printf("%s\n", str);
     
     return 0;
