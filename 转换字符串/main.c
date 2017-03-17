@@ -60,7 +60,7 @@ void reverseString(char *str, long len) {
 
 int main(int argc, const char * argv[]) {
     
-    char str[21] = "www.zhidao.baidu.com\0";
+    char str[] = "www.zhidao.baidu.com";
 //    printf("char * size: %ld\n\n", sizeof(str));
     
     Stack *s1 = (Stack *)malloc(sizeof(Stack));
