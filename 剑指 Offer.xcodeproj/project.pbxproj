@@ -1423,7 +1423,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = lzh;
 				TargetAttributes = {
 					0518944E1E7A21300003D641 = {
@@ -2176,6 +2176,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -2448,6 +2449,7 @@
 				051894541E7A21300003D641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		054E478D1E2B28280041D189 /* Build configuration list for PBXNativeTarget "倒序遍历链表" */ = {
 			isa = XCConfigurationList;
