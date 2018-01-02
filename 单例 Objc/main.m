@@ -17,6 +17,8 @@
 
 @implementation Singleton
 
+// 滥用单例之 dispatch_once 死锁
+// https://satanwoo.github.io/2016/04/11/dispatch-once/
 + (instancetype)sharedSingleton {
     // 这里使用 GCD，注意两个 static。
     static Singleton *singleton = nil;
