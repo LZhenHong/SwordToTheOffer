@@ -20,7 +20,7 @@ bool findNumber(int rows, int columns, int matrix[rows][columns], int target) {
     int r = 0, c = columns - 1;
     int n = 0;
     
-    while (r < rows && columns >= 0) {
+    while (r < rows && c >= 0) {
         n = matrix[r][c];
         if (n == target) {
             return true;
