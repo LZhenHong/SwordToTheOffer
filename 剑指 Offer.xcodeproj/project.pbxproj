@@ -1423,7 +1423,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = lzh;
 				TargetAttributes = {
 					0518944E1E7A21300003D641 = {
@@ -1580,10 +1580,11 @@
 			};
 			buildConfigurationList = 05CA8E5E1E29E160006B6152 /* Build configuration list for PBXProject "剑指 Offer" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 05CA8E5A1E29E160006B6152;
 			productRefGroup = 05CA8E641E29E160006B6152 /* Products */;
@@ -1871,6 +1872,7 @@
 		051894531E7A21300003D641 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1879,6 +1881,7 @@
 		051894541E7A21300003D641 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1887,6 +1890,7 @@
 		054E478B1E2B28280041D189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1895,6 +1899,7 @@
 		054E478C1E2B28280041D189 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1903,6 +1908,7 @@
 		054E47971E2B71120041D189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1911,6 +1917,7 @@
 		054E47981E2B71120041D189 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1919,6 +1926,7 @@
 		054F1CDF1E3CBB1E000F2062 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1927,6 +1935,7 @@
 		054F1CE01E3CBB1E000F2062 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1935,6 +1944,7 @@
 		054F1CEA1E421345000F2062 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1943,6 +1953,7 @@
 		054F1CEB1E421345000F2062 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1951,6 +1962,7 @@
 		054F1CF61E42D709000F2062 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1959,6 +1971,7 @@
 		054F1CF71E42D709000F2062 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1967,6 +1980,7 @@
 		054F1D011E42EE8A000F2062 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1975,6 +1989,7 @@
 		054F1D021E42EE8A000F2062 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1983,6 +1998,7 @@
 		054F1D0C1E443918000F2062 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1991,6 +2007,7 @@
 		054F1D0D1E443918000F2062 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1999,6 +2016,7 @@
 		0569ABEF1E2DC63900940A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2007,6 +2025,7 @@
 		0569ABF01E2DC63900940A37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2015,6 +2034,7 @@
 		0569ABFB1E2E672D00940A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2023,6 +2043,7 @@
 		0569ABFC1E2E672D00940A37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2031,6 +2052,7 @@
 		057859A61E2CECAA003D8D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2039,6 +2061,7 @@
 		057859A71E2CECAA003D8D33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2047,6 +2070,7 @@
 		057859B21E2CFF45003D8D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2055,6 +2079,7 @@
 		057859B31E2CFF45003D8D33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2063,6 +2088,7 @@
 		057859BD1E2D07D3003D8D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2071,6 +2097,7 @@
 		057859BE1E2D07D3003D8D33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2079,6 +2106,7 @@
 		058B14CE1E3B947F00A28568 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2087,6 +2115,7 @@
 		058B14CF1E3B947F00A28568 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2096,20 +2125,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2143,20 +2181,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -2183,6 +2230,7 @@
 		05CA8E811E29E1B5006B6152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2191,6 +2239,7 @@
 		05CA8E821E29E1B5006B6152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2199,6 +2248,7 @@
 		05CA8E8B1E29FDB9006B6152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2207,6 +2257,7 @@
 		05CA8E8C1E29FDB9006B6152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2215,6 +2266,7 @@
 		05CA8E971E29FF27006B6152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2225,6 +2277,7 @@
 		05CA8E981E29FF27006B6152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -2234,6 +2287,7 @@
 		05CA8EA21E2A07AA006B6152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2242,6 +2296,7 @@
 		05CA8EA31E2A07AA006B6152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2250,6 +2305,7 @@
 		05CA8EAD1E2A16EE006B6152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2258,6 +2314,7 @@
 		05CA8EAE1E2A16EE006B6152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2266,6 +2323,7 @@
 		05F1B6F61E307160005232CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2274,6 +2332,7 @@
 		05F1B6F71E307160005232CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2282,6 +2341,7 @@
 		05F1B70C1E30EEDC005232CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2290,6 +2350,7 @@
 		05F1B70D1E30EEDC005232CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2298,6 +2359,7 @@
 		05F1B7171E323A6B005232CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2306,6 +2368,7 @@
 		05F1B7181E323A6B005232CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2314,6 +2377,7 @@
 		05F1B7231E338507005232CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2322,6 +2386,7 @@
 		05F1B7241E338507005232CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2330,6 +2395,7 @@
 		05F1B72E1E34DDFE005232CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2338,6 +2404,7 @@
 		05F1B72F1E34DDFE005232CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2346,6 +2413,7 @@
 		05F1B7391E35D0F1005232CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2354,6 +2422,7 @@
 		05F1B73A1E35D0F1005232CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2362,6 +2431,7 @@
 		05F1B7441E363624005232CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2370,6 +2440,7 @@
 		05F1B7451E363624005232CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2378,6 +2449,7 @@
 		05F1B7591E374927005232CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2386,6 +2458,7 @@
 		05F1B75A1E374927005232CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2394,6 +2467,7 @@
 		05F39B581E4AC2C90080FCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2402,6 +2476,7 @@
 		05F39B591E4AC2C90080FCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2410,6 +2485,7 @@
 		05F39B811E5157D60080FCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2418,6 +2494,7 @@
 		05F39B821E5157D60080FCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2426,6 +2503,7 @@
 		05FF8AED1E2FAFD40099A2B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2434,6 +2512,7 @@
 		05FF8AEE1E2FAFD40099A2B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = V65YCRQZ2M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

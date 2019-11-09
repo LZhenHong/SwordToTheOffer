@@ -43,7 +43,7 @@ int minimumNumberInRotationArray(int *data, int count) {
         
         if (data[mid] >= data[min]) {
             min = mid;
-        } else if (data[mid] < data[max]) {
+        } else if (data[mid] <= data[max]) {
             max = mid;
         }
     }
@@ -52,7 +52,9 @@ int minimumNumberInRotationArray(int *data, int count) {
 }
 
 int main(int argc, const char * argv[]) {
-    int data[5] = {1, 1, 1, 0, 1};
+//    int data[5] = {1, 1, 1, 0, 1};
+    
+    int data[5] = {2, 2, 1, 1, 1};
     
 //    int data[5] = {1, 0, 1, 1, 1};
     
